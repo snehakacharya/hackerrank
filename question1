@@ -1,0 +1,7 @@
+Data = int(input())
+Mac = set(input().split())
+
+F = int(input())
+Dell = set(input().split())
+
+print(len(Mac ^ Dell))
